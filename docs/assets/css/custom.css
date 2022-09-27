@@ -1,0 +1,11 @@
+body {
+    padding: 25px 50px;
+}
+
+mark + mark {
+    margin-left: 5px;
+}
+
+code {
+    padding: 3px;
+}
