@@ -8,7 +8,8 @@
     "init": "tsc --init",
     "build": "tsc",
     "start": "tsc -w",
-    "gen": "ts-node ./__generateTsDoc__/index.ts"
+    "gen": "ts-node ./__generateTsDoc__/index.ts",
+    "docs": "http-server ./docs"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@types/glob": "^8.0.0",
     "deepmerge": "^4.2.2",
     "glob": "^8.0.3",
+    "http-server": "^14.1.1",
     "is-plain-object": "^5.0.0",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
